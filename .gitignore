@@ -1,0 +1,29 @@
+# GitIgnore File
+# Author: Steve Bennett
+
+# Ignore IDE files
+.idea/
+*.iml
+
+# Ignore temp junk
+*.tmp
+*.temp
+.DS_Store
+*.log
+Thumbs.db
+/.cache/
+
+# Ignore build items
+bundle.js
+node_modules
+bower_components
+packages
+pubspec.lock
+.pub/
+
+# Ignore build artifacts
+/build/
+/releases/
+/tmp/
+/dist/
+/out/
