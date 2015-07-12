@@ -46,7 +46,7 @@ public class BtPreorderTraversal {
         /*
         Traverse left until null then print up the stack,
         then traverse right until null and print up the stack.
-         */
+        */
 
         if (n.left != null)
             preorderTraversal(n.left);
